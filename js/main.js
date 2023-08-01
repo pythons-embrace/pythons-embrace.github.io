@@ -232,8 +232,17 @@
             var target = this.hash,
             $target    = $(target);
             
+                var current = window.location.href.split('#')[0];
+                var page = this.href.split('#')[0];
+                console.log(current);
+                console.log(page);
+                console.log(target);
                 e.preventDefault();
                 e.stopPropagation();
+
+            if (current != page) {
+                window.location = page + target;
+            }
 
             $('html, body').stop().animate({
                 'scrollTop': $target.offset().top

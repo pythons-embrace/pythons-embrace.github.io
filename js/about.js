@@ -32,7 +32,7 @@ class About extends HTMLElement {
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="about-avatar">
-                    <img src="../images/avatars/mixmixmix.png">
+                    <img src="../images/avatars/mixmixmix.jpg">
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Miks Kundegorski</h3>
