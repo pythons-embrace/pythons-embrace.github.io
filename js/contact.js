@@ -19,45 +19,30 @@ class ContactForm extends HTMLElement {
 
               <h3 class="h6">Send Us A Message</h3>
 
-              <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                  <fieldset>
-  
-                  <div class="form-field">
-                      <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                  </div>
-                  <div class="form-field">
-                      <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                  </div>
-                  <div class="form-field">
-                      <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                  </div>
-                  <div class="form-field">
-                      <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                  </div>
-                  <div class="form-field">
-                      <button class="full-width btn--primary">Submit</button>
-                      <div class="submit-loader">
-                          <div class="text-loader">Sending...</div>
-                          <div class="s-loader">
-                              <div class="bounce1"></div>
-                              <div class="bounce2"></div>
-                              <div class="bounce3"></div>
-                          </div>
-                      </div>
-                  </div>
-  
-                  </fieldset>
+              <form
+                name="contactForm"
+                id="contactForm"
+                action="https://formspree.io/f/maygobva"
+                method="POST"
+              >
+                <fieldset>
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="true" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary" type="submit">Send</button>
+                    </div>
+                    </fieldset>
               </form>
-
-              <!-- contact-warning -->
-              <div class="message-warning">
-                  Something went wrong. Please try again.
-              </div> 
-          
-              <!-- contact-success -->
-              <div class="message-success">
-                  Your message was sent, thank you!<br>
-              </div>
 
           </div> <!-- end contact-primary -->
 
