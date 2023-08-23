@@ -8,7 +8,7 @@
     "use strict";
     
     var cfg = {
-        scrollDuration : 800, // smoothscroll duration
+        scrollDuration : 500, // smoothscroll duration
         mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
 
@@ -34,7 +34,7 @@
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(100).fadeOut("slow");
             }); 
             
             // for hero content animations 
@@ -115,7 +115,7 @@
                         var $this = $(this);
 
                         $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                            duration: 4000,
+                            duration: 800,
                             easing: 'swing',
                             step: function (curValue) {
                                 $this.text(Math.ceil(curValue));
@@ -161,9 +161,9 @@
             infinite: true,
             slidesToShow: 6,
             slidesToScroll: 2,
-            //autoplay: true,
+            autoplay: true,
             pauseOnFocus: false,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 500,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -202,8 +202,9 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveHeight: true,
-            pauseOnFocus: false,
-            autoplaySpeed: 1500,
+            pauseOnFocus: true,
+            autoplay: true,
+            autoplaySpeed: 10000,
             responsive: [
                 {
                     breakpoint: 900,
@@ -234,9 +235,6 @@
             
                 var current = window.location.href.split('#')[0];
                 var page = this.href.split('#')[0];
-                console.log(current);
-                console.log(page);
-                console.log(target);
                 e.preventDefault();
                 e.stopPropagation();
 
@@ -338,9 +336,9 @@
         
         AOS.init( {
             offset: 200,
-            duration: 600,
+            duration: 300,
             easing: 'ease-in-sine',
-            delay: 300,
+            delay: 0,
             once: true,
             disable: 'mobile'
         });
