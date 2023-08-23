@@ -11,13 +11,13 @@ class Footer extends HTMLElement {
 
           </div>
 
-          <div class="col-six tab-full right footer-subscribe">
+          <div class="col-six tab-full right">
 
               <h4>Our Courses</h4>
 
               <ul class="center-wrapped">
                 <li><a href="/courses/beginners.html">Python for Biologists</a></li>
-                <li><a href="/courses/data_exploration.html">Data Explorations</a></li>
+                <li><a href="/courses/data_exploration.html">Data Exploration</a></li>
                 <li><a href="/courses/image_analysis.html">Image Analysis</a></li>
                 <li><a href="/courses/machine_learning.html">Machine Learning</a></li>
                 <li><a href="/courses/workflows.html">Data Workflows</a></li>

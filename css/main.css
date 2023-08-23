@@ -3445,74 +3445,6 @@ footer .row {
     font-size: 2rem;
 }
 
-.footer-subscribe .subscribe-form {
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.footer-subscribe #mc-form {
-    width: 100%;
-}
-
-.footer-subscribe #mc-form input[type="email"] {
-    width: 100%;
-    height: 5.4rem;
-    padding: 1.2rem 160px 1.2rem 60px;
-    background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
-    background-size: 24px 16px, auto;
-    border: none;
-    margin-bottom: 1.8rem;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.footer-subscribe #mc-form input[type="email"]:focus {
-    color: #FFFFFF;
-}
-
-.footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
-}
-
-.footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
-    /* Firefox 18- */
-}
-
-.footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
-    /* Firefox 19+ */
-}
-
-.footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
-}
-
-.footer-subscribe #mc-form input[type="email"].placeholder {
-    color: rgba(255, 255, 255, 0.2) !important;
-}
-
-.footer-subscribe #mc-form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
-    padding: 0 20px;
-}
-
-.footer-subscribe #mc-form label {
-    color: #FFFFFF;
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.3rem;
-    padding: 0 2rem;
-}
-
-.footer-subscribe #mc-form label i {
-    padding-right: 6px;
-}
-
 
 /* ---------------------------------------------------------------
  * ## footer bottom
@@ -3624,22 +3556,6 @@ footer .row {
     .go-top {
         right: 0;
         bottom: 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .footer-subscribe #mc-form input[type="email"] {
-        padding: 1.2rem 20px 1.2rem;
-        background: rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
-    .footer-subscribe #mc-form input[type=submit] {
-        position: static;
-        width: 100%;
-        margin-bottom: 1.8rem;
-    }
-    .footer-subscribe #mc-form label {
-        text-align: center;
     }
 }
 
