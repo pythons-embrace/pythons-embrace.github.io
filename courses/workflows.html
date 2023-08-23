@@ -55,52 +55,47 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Python for Biologists</h3>
-                <h1 class="display-2">An introduction to programming for biologists using Python</h1>
+                <h3 class="subhead">Data Workflows</h3>
+                <h1 class="display-2">Reproducible Research for Biologists using Git</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row services-list block-1-2 block-tab-full">
 
             <div class="col-block service-item" data-aos="fade-up">
-                <img src="/images/courses/beginners.png">
+                <img class="service-img" src="/images/courses/workflows.png">
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Overview</h3>
-                    <p>There's no escaping it - computing is an essential part of the scientist's toolkit. From coping with the data deluge by automated analysis or simulating a mathematical model of your system, coding is an essential skill for the modern biologist.
+                <div class="service-intro">
+                    <p class="drop-cap">Ever tried to run your amazing data analysis six months later? Or tried to share your code with a colleague? Was it a smooth and beautiful transition? Or did you spend hours trying to figure out what you did and why it doesn't work anymore? If so, this course is for you.
                     </p>
-                    <p>This hands-on, one-day course will introduce you to Python, a popular and powerful computer language. You will learn the basics of working with Python through the popular Jupyter system.
+                    <p></p>This course will introduce you to several tools that will up your data engineering game and make your research reproducible - both for future you and your collaborators. We will cover the basics of using Git and GitHub to manage your code and data, and how to use Python* tools to make your work more reproducible. We will cover the basics of version control, how to use GitHub to collaborate with others and how to use GitHub Actions to automate your workflow.
                     </p>
-                    <p>But Don't Panic - this course is designed for those with no existing coding experience.
-                    </p>
+                    <p>By the end of the course you will have a solid understanding of how to use make your work more reproducible and save yourself future headaches.
+                    <p id="footnote">* other programming languages can also be supported</p>
                 </div>
             </div>
 
         </div> <!-- end services-list -->
 
 
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <div class="service-text">
-                    <h3 class="h2">What does the course cover?</h3>
+        <div class="row services-list block-tab-full" data-aos="fade-up">
+            <div class="col-full service-item">
+                    <i class="icon-book service-icon"></i>
+                    <h3 class="h2" id="course-content">What does the course cover?</h3>
 
-                    <h4 class="h3">The basics of programming with Python and Jupyter notebooks</h4>
-                    <p>The majority of the course is aimed to take you from zero to hero! We introduce you to Python and Jupyter and take you from the very basics through to writing simple functions. This will involve short tutorials alternated with practical and relevant exercises - all done through live coding.
+                    <h4 class="h3">Git and GitHub</h4>
+                    <p>We start the course by covering basic command line / shell usage with both bash and Powershell. We then move on to the git cli (command line interface), introducing the basic concepts of version control as we go, including: pushing, pulling and merging changes.
                     </p>
-                    <p>In this part of the course we will cover variables, data types, lists, loops and conditionals. Don't worry it will all become clear the course and we also cover built-in and on-line documentation should you need other resources.
+                    <p>Once we're familiar with git cli basics we will move into the popular GitHub web interface, where we will cover the basics of creating and managing repositories, as well as the GitHub workflow using feature branches, pull requests and code reviews. We will also cover the concept of rebasing and how to use it to keep your git history clean and easy to follow. Finally we will demonstrate the power of GitHub Issues and Projects as a way to manage your work and collaborate with others.
                     </p>
 
-                    <h4 class="h2">Plotting and statistics in Python</h4>
-                    <p>In the afternoon, we will showcase some practical applications of Python. By introducing important modules (NumPy, SciPy, Pandas and Seaborn) we will cover how to read in datasets and carry out simple plotting and statistics.
+                    <h4 class="h3">Reproducibility (with Python)</h4>
+                    <p>The second part of the course will focus on some key ideas that you can use to improve the reproducibility of you work. This part of the course is usually done with a Python-first mentality but other programming languages can also be supported (see prerequisites).
                     </p>
-                    <p>Due to the limited time for the course, this part is done as a “show and tell” where we demonstrate some of the more powerful things that Python can do and provide you the resources (notebooks and videos) to go away and explore these after the course. Should you wish to explore these topics further we also offer a follow-on course: “Analysing and Visualising Data with Python for Biologists”.
+                    <p>We will cover virtual environments and reproducible dependency management (with Pipenv), environment and configuration files and an introduction to ensuring you don't break your code by adding automated testing (with pytest). Finally, we will go back into GitHub and show you how GitHub Actions can help you automate this and so much more.
                     </p>
-                </div>
             </div>
 
         </div> <!-- end row -->
@@ -108,33 +103,23 @@
         <div class="row services-list block-1-2 block-tab-full">
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Who is the course for?</h3>
-                    <p>Students (at any level) and researchers at any career stage in biology and related areas of science and medicine.
-                    </p>
-                    <p>No previous coding experience is needed or assumed.
-                    </p>
-                    <p>If you already have some experience programming in any language then please read “What does the course cover?” below carefully – the course starts from programming basics  (variables, conditionals, loops, etc.) and you may find our “Analysing and Visualising Data with Python for Biologists” course more appropriate.
-                    </p>
-                    <p>Attendees will be working on their own laptops and will be expected to install some programmes before the course. Any laptop or operating system is suitable.
-                    </p>
-                </div>
+                <i class="icon-users service-icon"></i>
+                <h3 class="h2">Who is the course for?</h3>
+                <p>Biologists at any career stage (including students) in biology and related areas of science and medicine who have some experience of coding in Python or another programming language (see prerequisites) and wish to expand their skills in the area of data engineering and reproducibility.
+                </p>
+                <p>If you have no experience programming in any language then you may find our <a href="/courses/beginners.html">Python for Biologists</a> course more appropriate.
+                </p>
+                <p>Attendees usually work on their own laptops and are expected to install some programmes before the course. Any laptop or operating system is suitable.
+                </p>
             </div>
 
             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">A note on prerequisites</h3>
-                    <p>No previous coding experience is needed or assumed.
-                    </p>
-                    <p>Attendees should be comfortable installing applications on their own laptops and will be required to do so before the course, details of which will be provided closer to the time. Any laptop or operating system is suitable.
-                    </p>
-                </div>
+                <i class="icon-pencil service-icon"></i>
+                <h3 class="h2">A note on prerequisites</h3>
+                <p>We expect attendees to have previous experience in Python, R or any other programming language. Programming skills should be equivalent to having done our <a href="/courses/data_exploration.html">Data Exploration</a> course and built upon those skills in whichever language. If you are using any language other than Python, please make this clear when you organise or sign up for the course so we can be sure to show you the correct tools for your language.
+                </p>
+                <p>Attendees should be comfortable installing applications on their own laptops and will be required to do so before the course, details of which will be provided closer to the time. Any laptop or operating system is suitable.
+                </p>
             </div>
 
         </div> <!-- end services-list -->
