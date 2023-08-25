@@ -25,7 +25,7 @@ class About extends HTMLElement {
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Dr Chas Nelson</h3>
-                    <p><a href="chasnelson.co.uk">Dr Chas Nelson</a> is an International Data Consultant working with Fjelltopp Ltd and various UN Organisations. Chas has taught computer science topics to a wide variety of groups and comes prepared with an undergraduate degree in biology (and physics) and a PhD in computer science, specifically bioimage analysis. Chas uses Python daily and has an interest in building courses that enable participants to go on and continue learning after the course.
+                    <p><a href="https://www.chasnelson.co.uk">Dr Chas Nelson</a> is an International Data Consultant working with Fjelltopp Ltd and various UN Organisations. Chas has taught computer science topics to a wide variety of groups and comes prepared with an undergraduate degree in biology (and physics) and a PhD in computer science, specifically bioimage analysis. Chas uses Python daily and has an interest in building courses that enable participants to go on and continue learning after the course.
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ class About extends HTMLElement {
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Miks Kundegorski</h3>
-                    <p><a href="mixmixmix.github.io">Mikolaj (Miks) Kundegorski</a> is a Software Engineer at Fjelltopp Ltd and Health Informatics Consultant with the UN Organisations. His background spans from physics to computer vision and he is currently working towards his PhD in modelling of collective animal behaviour at the University of Glasgow. He uses Python to solve a wide variety of problems in international development and academia and is passionate about sharing his expertise.
+                    <p><a href="https://mixmixmix.github.io">Mikolaj (Miks) Kundegorski</a> is a Software Engineer at Fjelltopp Ltd and Health Informatics Consultant with the UN Organisations. His background spans from physics to computer vision and he is currently working towards his PhD in modelling of collective animal behaviour at the University of Glasgow. He uses Python to solve a wide variety of problems in international development and academia and is passionate about sharing his expertise.
                     </p>
                 </div>
             </div>
