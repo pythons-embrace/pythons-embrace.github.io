@@ -9,7 +9,7 @@ class ContactForm extends HTMLElement {
       <div class="row section-header" data-aos="fade-up">
           <div class="col-full">
               <h3 class="subhead">Contact Us</h3>
-              <h1 class="display-2 display-2--light">Book one of our existing courses or reach out for a custom one</h1>
+              <h1 class="display-2 display-2--light">Book us to teach one of our existing courses or reach out to enquire about a custom course suited to your requirements</h1>
           </div>
       </div>
 

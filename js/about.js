@@ -45,7 +45,9 @@ class About extends HTMLElement {
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
-                <p>Between them, Chas and Miks will be able to fully support your learning throughout the course and provide you with the tools to continue developing your skills after the course.
+                <p>Between them, Chas and Miks will be able to fully support your learning throughout our courses and provide you with the tools to continue developing your skills after the course.
+                </p>
+                <p>Python's Embrace provide ready designed courses for you and your institution. We can also provide bespoke courses to meet your needs. We are happy to discuss your requirements and provide a quote. Please get in touch using the contact form below.
                 </p>
             </div>
         </div> <!-- end about-desc -->
