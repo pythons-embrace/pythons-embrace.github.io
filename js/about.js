@@ -12,7 +12,7 @@ class About extends HTMLElement {
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
-                <p>Python's Embrace is the work of Dr Chas Nelson and Miks Kundegorski - one biologist who found themselves in computing; and one computer scientist who found themselves in a field! We are passionate about sharing our knowledge and experience with others and helping them to develop their skills in Python and data science.
+                <p>Python's Embrace is the work of Dr Chas Nelson and Miks Kundegorski - one biologist who found themself in computing; and one computer scientist who found themself in a field! We are passionate about sharing our knowledge and experience with others and helping them to develop their skills in Python and data science.
                 </p>
             </div>
         </div> <!-- end about-desc -->
@@ -36,7 +36,7 @@ class About extends HTMLElement {
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Miks Kundegorski</h3>
-                    <p><a href="mixmixmix.github.io">Mikolaj (Miks) Kundegorski</a> is a Software Engineer at Fjelltopp Ltd and Health Informatics Consultant with the UN Food and Agricultural Organisation. His background spans from physics to computer vision and he is currently working towards his PhD in modelling of collective animal behaviour at the University of Glasgow. He uses Python to solve a wide variety of problems in international development and academia and is passionate about sharing his expertise.
+                    <p><a href="mixmixmix.github.io">Mikolaj (Miks) Kundegorski</a> is a Software Engineer at Fjelltopp Ltd and Health Informatics Consultant with the UN Organisations. His background spans from physics to computer vision and he is currently working towards his PhD in modelling of collective animal behaviour at the University of Glasgow. He uses Python to solve a wide variety of problems in international development and academia and is passionate about sharing his expertise.
                     </p>
                 </div>
             </div>

@@ -2539,7 +2539,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-courses {
-    background: #FFFFFF;
+    background: #111111;
     padding: 0 0 15rem 0;
     min-height: 800px;
     position: relative;
@@ -2547,12 +2547,22 @@ html.no-csstransitions .home-content__main {
 
 .s-courses .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
 }
 
 .courses-content {
     max-width: 1160px;
     margin-top: -23.4rem;
+}
+
+.s-courses .intro-wrap a, .s-courses .intro-wrap a:visited {
+    font-family: "montserrat-light", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.s-courses .intro-wrap a:hover,
+.s-courses .intro-wrap a:focus,
+.s-courses .intro-wrap a:active {
+    color: white;
 }
 
 
@@ -2647,7 +2657,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__title {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.4rem;
+    font-size: 2.8rem;
     line-height: 1.286;
     color: #FFFFFF;
     text-transform: uppercase;
