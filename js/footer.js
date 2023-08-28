@@ -7,7 +7,12 @@ class Footer extends HTMLElement {
 
           <div class="col-six tab-full left footer-desc">
 
-              <div class="footer-logo">Python's Embrace</div>
+            <div class="footer-logo">
+              <a class="site-logo" href="/">
+                  <img src="/images/logo.webp" alt="Python's Embrace">
+                  <span class="logo-text">Python's Embrace</span>
+              </a>
+            </div>
 
           </div>
 

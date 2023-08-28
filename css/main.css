@@ -1463,20 +1463,39 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-logo a {
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 9px 0 0 0;
     padding: 0;
     outline: 0;
     border: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    /* following commented out whilst logo is text */
-    /* width: 80px; */
-    /* following added whilst logo is text */
     font-family: "montserrat-bold", sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 2rem;
+}
+
+.header-logo a span.logo-text{
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 160px;
+    font-family: "montserrat-bold", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.header-logo a img {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 80px;
 }
 
 
@@ -3436,23 +3455,48 @@ footer .row {
     display: block;
     margin: -.6rem 0 3.6rem 0;
     padding: 0;
+    left: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 501;
+}
+
+.footer-logo a {
+    display: flex;
+    align-items: center;
+    margin: 9px 0 0 0;
+    padding: 0;
     outline: 0;
     border: none;
-    text-shadow: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    /* following commented out whilst logo is text */
-    /* width: 85px; */
-    /* height: 28px; */
-    /* background: url("../images/logo-footer.png") no-repeat center; */
-    /* background-size: 85px 28px; */
-    /* font: 0/0 a; */
-    /* color: transparent; */
-    /* following added whilst logo is text */
     font-family: "montserrat-bold", sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 2rem;
+}
+
+.footer-logo a span.logo-text{
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 160px;
+    font-family: "montserrat-bold", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.footer-logo a img {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 80px;
 }
 
 

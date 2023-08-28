@@ -5,7 +5,8 @@ class Header extends HTMLElement {
 
       <div class="header-logo">
           <a class="site-logo" href="/">
-              Python's Embrace
+              <img src="/images/logo.webp" alt="Python's Embrace">
+              <span class="logo-text">Python's Embrace</span>
           </a>
       </div>
 
