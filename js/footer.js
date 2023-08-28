@@ -22,9 +22,9 @@ class Footer extends HTMLElement {
 
               <ul class="center-wrapped">
                 <li><a href="/courses/beginners.html">Python for Biologists</a></li>
-                <li><a href="/courses/data_exploration.html">Data Exploration</a></li>
-                <li><a href="/courses/image_analysis.html">Image Analysis</a></li>
-                <li><a href="/courses/machine_learning.html">Machine Learning</a></li>
+                <li><a href="/courses/data-exploration.html">Data Exploration</a></li>
+                <li><a href="/courses/image-analysis.html">Image Analysis</a></li>
+                <li><a href="/courses/machine-learning.html">Machine Learning</a></li>
                 <li><a href="/courses/workflows.html">Data Workflows</a></li>
               </ul>
 
@@ -37,7 +37,7 @@ class Footer extends HTMLElement {
           <div class="col-twelve">
               <div class="copyright">
                   <span>© Copyright Chas Nelson 2023</span> 
-                  <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                  <span>Site Template by <a href="https://www.colorlib.com/" rel="nofollow">Colorlib</a></span>	
               </div>
 
               <div class="go-top">
