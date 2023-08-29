@@ -21,7 +21,7 @@ class About extends HTMLElement {
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="about-avatar">
-                    <img src="../images/avatars/cjn.jpg">
+                    <img src="../images/avatars/cjn.jpg" alt="photograph of Dr Chas Nelson">
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Dr Chas Nelson</h3>
@@ -32,7 +32,7 @@ class About extends HTMLElement {
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="about-avatar">
-                    <img src="../images/avatars/mixmixmix.jpg">
+                    <img src="../images/avatars/mixmixmix.jpg" alt="photograph of Mikolaj Kundegorski">
                 </div>
                 <div class="about-bio">
                     <h3 class="h2">Miks Kundegorski</h3>
