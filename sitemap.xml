@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://pythons-embrace.github.io/courses/beginners.html</loc>
+</url>
+<url>
+  <loc>http://pythons-embrace.github.io/courses/data-exploration.html</loc>
+</url>
+<url>
+  <loc>http://pythons-embrace.github.io/courses/image-analysis.html</loc>
+</url>
+<url>
+  <loc>http://pythons-embrace.github.io/courses/machine-learning.html</loc>
+</url>
+<url>
+  <loc>http://pythons-embrace.github.io/courses/workflows.html</loc>
+</url>
+</urlset>
